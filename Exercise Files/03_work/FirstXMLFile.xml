@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- link CSS file with XML-->
+<?xml-stylesheet type="text/css" href="FirstXMLFile.css" ?>
+<FirstTag>
+Good to review XML codes again -).
+</FirstTag>
