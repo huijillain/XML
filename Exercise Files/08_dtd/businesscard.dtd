@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--DTD: Document Type Definitions-->
+
+<!ELEMENT BusinessCard (Name, phone+, email?)> <!--email? means email is optional-->
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (mobile | fax | work | home) #REQUIRED >
+<!ELEMENT email (#PCDATA)>
